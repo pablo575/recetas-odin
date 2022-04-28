@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    max-height: min-content;
+}
+header {
+    background-color: rgb(100, 68, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: juego;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+
+}
+header p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 38px;
+    display: inline-block;
+}
+.menu {
+    
+    
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    border-radius: 20px;
+    background-image: url(eso.jpg);
+
+}
+.menu li {
+    margin: 20px;
+    font-size: 24px;
+}
+.menu a {
+    color: aliceblue;
+}
+
+.container {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    background:url(ima.jpg);
+    background-size: cover;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1f 1fr;
+    color: aliceblue;
+} 
+footer {
+    background-image: url(eso.jpg);
+    text-align: center;
+    font-size: 32px;
+    color: aliceblue;
+}
+@keyframes juego {
+    0% {
+        background-color: rgb(100, 68, 68);
+
+    }
+    25% {background-color: rgb(44, 16, 16);
+    }
+    50%{ background-color: rgb(53, 4, 4);
+    }
+    75%{ background-color: rgb(121, 38, 38);}
+    700%{background-color: brown;}
+}
